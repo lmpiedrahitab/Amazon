@@ -12,7 +12,7 @@ public class CartPage {
     @FindBy(id = "sw-gtc")
     WebElement goCartButton;
 
-    @FindBy(xpath = "//input[@value=\"Delete\"]")
+    @FindBy(xpath = "//input[@data-action=\"delete\"]")
     WebElement deleteButton;
 
     @FindBy(id = "sc-subtotal-label-activecart")
